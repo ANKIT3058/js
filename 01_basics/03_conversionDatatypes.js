@@ -24,3 +24,6 @@ true => 1; false => 0
 "" => false
 "hitesh" => true
 */
+
+// let a=++3; SyntaxError: Invalid left-hand side expression in prefix operation
+// console.log(a);
