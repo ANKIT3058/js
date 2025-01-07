@@ -25,3 +25,18 @@ const myFunction = function(){
 
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack(primitive) , heap(non-primitive)
+// Everything created in heap, its reference is returned
+// Everything created in stack, its copy is returned
+
+let userOne = {
+    username: "ankit",
+    upi: "user@gmail.com"
+}
+let userTwo = userOne
+userTwo.username="prabhakar"
+console.log(userOne.username);
