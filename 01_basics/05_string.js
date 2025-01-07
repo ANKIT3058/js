@@ -19,7 +19,7 @@ console.log(gameName.indexOf('t'));
 const newString = gameName.substring(0, 4)
 console.log(newString);
 
-const anotherString = gameName.slice(-8, 4)
+const anotherString = gameName.slice(-8, 4) // -ve only in slice
 console.log(anotherString);
 
 const newStringOne = "   hitesh    "
